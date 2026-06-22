@@ -1,0 +1,75 @@
+{
+    "character": "bf-car",
+    "offsets": [
+        {
+            "anim": "scared",
+            "x": -5,
+            "y": 1
+        },
+        {
+            "anim": "deathLoop",
+            "x": 27,
+            "y": -2
+        },
+        {
+            "anim": "singRIGHTmiss",
+            "x": -42,
+            "y": 21
+        },
+        {
+            "anim": "singDOWN",
+            "x": -12,
+            "y": -52
+        },
+        {
+            "anim": "singLEFTmiss",
+            "x": 7,
+            "y": 18
+        },
+        {
+            "anim": "singUP",
+            "x": -39,
+            "y": 27
+        },
+        {
+            "anim": "deathConfirm",
+            "x": 27,
+            "y": 63
+        },
+        {
+            "anim": "firstDeath",
+            "x": 27,
+            "y": 5
+        },
+        {
+            "anim": "hey",
+            "x": -3,
+            "y": 5
+        },
+        {
+            "anim": "idle",
+            "x": -4,
+            "y": 0
+        },
+        {
+            "anim": "singDOWNmiss",
+            "x": -11,
+            "y": -19
+        },
+        {
+            "anim": "singRIGHT",
+            "x": -44,
+            "y": -5
+        },
+        {
+            "anim": "singLEFT",
+            "x": 9,
+            "y": -6
+        },
+        {
+            "anim": "singUPmiss",
+            "x": -39,
+            "y": 24
+        }
+    ]
+}

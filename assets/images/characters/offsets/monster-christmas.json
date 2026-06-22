@@ -1,0 +1,30 @@
+{
+    "character": "monster-christmas",
+    "offsets": [
+        {
+            "anim": "idle",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singRIGHT",
+            "x": -51,
+            "y": 7
+        },
+        {
+            "anim": "singDOWN",
+            "x": -54,
+            "y": -92
+        },
+        {
+            "anim": "singLEFT",
+            "x": -35,
+            "y": 11
+        },
+        {
+            "anim": "singUP",
+            "x": -27,
+            "y": 57
+        }
+    ]
+}

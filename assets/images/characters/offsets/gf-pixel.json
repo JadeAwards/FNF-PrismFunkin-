@@ -1,0 +1,15 @@
+{
+	"offsets": [
+		{
+			"x": 0,
+			"y": 0,
+			"anim": "danceRight"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"anim": "danceLeft"
+		}
+	],
+	"character": "gf-pixel"
+}

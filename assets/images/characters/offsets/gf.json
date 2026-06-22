@@ -1,0 +1,60 @@
+{
+	"offsets": [
+		{
+			"x": -2,
+			"y": -17,
+			"anim": "scared"
+		},
+		{
+			"x": 0,
+			"y": -20,
+			"anim": "singDOWN"
+		},
+		{
+			"x": 0,
+			"y": -9,
+			"anim": "danceRight"
+		},
+		{
+			"x": 0,
+			"y": 4,
+			"anim": "singUP"
+		},
+		{
+			"x": 0,
+			"y": -9,
+			"anim": "danceLeft"
+		},
+		{
+			"x": 45,
+			"y": -8,
+			"anim": "hairBlow"
+		},
+		{
+			"x": 0,
+			"y": -9,
+			"anim": "hairFall"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"anim": "cheer"
+		},
+		{
+			"x": 0,
+			"y": -20,
+			"anim": "singRIGHT"
+		},
+		{
+			"x": -2,
+			"y": -21,
+			"anim": "sad"
+		},
+		{
+			"x": 0,
+			"y": -19,
+			"anim": "singLEFT"
+		}
+	],
+	"character": "gf"
+}

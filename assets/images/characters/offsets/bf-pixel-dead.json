@@ -1,0 +1,20 @@
+{
+    "character": "bf-pixel-dead",
+    "offsets": [
+        {
+            "anim": "firstDeath",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "deathLoop",
+            "x": -37,
+            "y": 0
+        },
+        {
+            "anim": "deathConfirm",
+            "x": -37,
+            "y": 0
+        }
+    ]
+}

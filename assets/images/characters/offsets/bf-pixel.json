@@ -1,0 +1,50 @@
+{
+    "character": "bf-pixel",
+    "offsets": [
+        {
+            "anim": "singRIGHTmiss",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singDOWN",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singLEFTmiss",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singUP",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "idle",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singDOWNmiss",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singRIGHT",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singLEFT",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singUPmiss",
+            "x": 0,
+            "y": 0
+        }
+    ]
+}

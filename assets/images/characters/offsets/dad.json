@@ -1,0 +1,30 @@
+{
+    "character": "dad",
+    "offsets": [
+        {
+            "anim": "idle",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singDOWN",
+            "x": 1,
+            "y": -31
+        },
+        {
+            "anim": "singRIGHT",
+            "x": -4,
+            "y": 26
+        },
+        {
+            "anim": "singUP",
+            "x": -10,
+            "y": 51
+        },
+        {
+            "anim": "singLEFT",
+            "x": -7,
+            "y": 10
+        }
+    ]
+}

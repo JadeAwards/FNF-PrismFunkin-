@@ -1,0 +1,30 @@
+{
+    "character": "spirit",
+    "offsets": [
+        {
+            "anim": "idle",
+            "x": -220,
+            "y": -280
+        },
+        {
+            "anim": "singUP",
+            "x": -220,
+            "y": -240
+        },
+        {
+            "anim": "singRIGHT",
+            "x": -220,
+            "y": -280
+        },
+        {
+            "anim": "singLEFT",
+            "x": -200,
+            "y": -280
+        },
+        {
+            "anim": "singDOWN",
+            "x": 170,
+            "y": 110
+        }
+    ]
+}

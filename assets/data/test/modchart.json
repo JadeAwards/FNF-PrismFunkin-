@@ -1,0 +1,152 @@
+{
+	"events": [
+		{
+			"step": 1,
+			"action": "hudvisible",
+			"val1": "scoreTxt",
+			"val2": "false",
+			"comment": "You can also put down comments!"
+		},
+		{
+			"step": 16,
+			"action": "strumpos",
+			"val1": "0",
+			"val2": "-120"
+		},
+		{
+			"step": 32,
+			"action": "strumtween",
+			"val1": "0",
+			"val2": "120",
+			"val3": 2.0,
+			"val4": "elasticOut"
+		},
+		{
+			"step": 64,
+			"action": "noteangle",
+			"val1": "0",
+			"val2": "30"
+		},
+		{
+			"step": 72,
+			"action": "noteangle",
+			"val1": "3",
+			"val2": "-30"
+		},
+		{
+			"step": 128,
+			"action": "hudvisible",
+			"val1": "hud",
+			"val2": "false"
+		},
+		{
+			"step": 144,
+			"action": "hudvisible",
+			"val1": "hud",
+			"val2": "true"
+		},
+		{
+			"step": 144,
+			"action": "setsway",
+			"val1": "25",
+			"val2": "0",
+			"val3": 2.5
+		},
+		{
+			"step": 256,
+			"action": "strumtween",
+			"val1": "-100",
+			"val2": "30",
+			"val3": 1.5,
+			"val4": "quadInOut"
+		},
+		{
+			"step": 384,
+			"action": "setsway",
+			"val1": "50",
+			"val2": "0",
+			"val3": 4.5
+		},
+		{
+			"step": 512,
+			"action": "strumtween",
+			"val1": "200",
+			"val2": "-30",
+			"val3": 2.0,
+			"val4": "elasticOut"
+		},
+		{
+			"step": 640,
+			"action": "setsway",
+			"val1": "15",
+			"val2": "0",
+			"val3": 1.5
+		},
+		{
+			"step": 640,
+			"action": "noteangle",
+			"val1": "1",
+			"val2": "45"
+		},
+		{
+			"step": 648,
+			"action": "noteangle",
+			"val1": "2",
+			"val2": "-45"
+		},
+		{
+			"step": 768,
+			"action": "strumtween",
+			"val1": "-100",
+			"val2": "0",
+			"val3": 1.2,
+			"val4": "quadInOut"
+		},
+		{
+			"step": 832,
+			"action": "setsway",
+			"val1": "65",
+			"val2": "0",
+			"val3": 6.0
+		},
+		{
+			"step": 896,
+			"action": "noteangle",
+			"val1": "0",
+			"val2": "0"
+		},
+		{
+			"step": 898,
+			"action": "noteangle",
+			"val1": "1",
+			"val2": "0"
+		},
+		{
+			"step": 900,
+			"action": "noteangle",
+			"val1": "2",
+			"val2": "0"
+		},
+		{
+			"step": 902,
+			"action": "noteangle",
+			"val1": "3",
+			"val2": "0"
+		},
+		{
+			"step": 960,
+			"action": "setsway",
+			"val1": "0",
+			"val2": "0",
+			"val3": 2.0
+		},
+		{
+			"step": 992,
+			"action": "strumtween",
+			"val1": "0",
+			"val2": "200",
+			"val3": 2.5,
+			"val4": "quadIn"
+		}
+	]
+}

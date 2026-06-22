@@ -1,0 +1,30 @@
+{
+	"offsets": [
+		{
+			"x": 0,
+			"y": 0,
+			"anim": "idle"
+		},
+		{
+			"x": -51,
+			"y": 17,
+			"anim": "singRIGHT"
+		},
+		{
+			"x": -54,
+			"y": -82,
+			"anim": "singDOWN"
+		},
+		{
+			"x": -36,
+			"y": 4,
+			"anim": "singLEFT"
+		},
+		{
+			"x": -30,
+			"y": 90,
+			"anim": "singUP"
+		}
+	],
+	"character": "monster"
+}

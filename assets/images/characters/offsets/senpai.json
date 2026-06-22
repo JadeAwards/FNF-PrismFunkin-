@@ -1,0 +1,30 @@
+{
+    "character": "senpai-angry",
+    "offsets": [
+        {
+            "anim": "idle",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singUP",
+            "x": 5,
+            "y": 37
+        },
+        {
+            "anim": "singRIGHT",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singLEFT",
+            "x": 40,
+            "y": 0
+        },
+        {
+            "anim": "singDOWN",
+            "x": 14,
+            "y": 0
+        }
+    ]
+}

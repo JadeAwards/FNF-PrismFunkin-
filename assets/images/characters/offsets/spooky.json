@@ -1,0 +1,35 @@
+{
+    "character": "spooky",
+    "offsets": [
+        {
+            "anim": "singDOWN",
+            "x": -40,
+            "y": -144
+        },
+        {
+            "anim": "singRIGHT",
+            "x": -150,
+            "y": -11
+        },
+        {
+            "anim": "danceRight",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singLEFT",
+            "x": 114,
+            "y": -15
+        },
+        {
+            "anim": "danceLeft",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singUP",
+            "x": -30,
+            "y": 26
+        }
+    ]
+}

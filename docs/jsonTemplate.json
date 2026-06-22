@@ -1,0 +1,9 @@
+{
+    "step": 144,
+    "action": "action_name",
+    "val1": "value_1",
+    "val2": "value_2",
+    "val3": 1.5,
+    "val4": "ease_type",
+    "comment": "Optional note describing the event"
+}

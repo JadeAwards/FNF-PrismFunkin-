@@ -1,0 +1,50 @@
+{
+    "character": "pico",
+    "offsets": [
+        {
+            "anim": "singRIGHTmiss",
+            "x": -70,
+            "y": 28
+        },
+        {
+            "anim": "singDOWN",
+            "x": 190,
+            "y": -79
+        },
+        {
+            "anim": "singLEFTmiss",
+            "x": 59,
+            "y": 50
+        },
+        {
+            "anim": "singUP",
+            "x": -29,
+            "y": 27
+        },
+        {
+            "anim": "idle",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singDOWNmiss",
+            "x": 180,
+            "y": -39
+        },
+        {
+            "anim": "singRIGHT",
+            "x": -81,
+            "y": -12
+        },
+        {
+            "anim": "singLEFT",
+            "x": 55,
+            "y": 0
+        },
+        {
+            "anim": "singUPmiss",
+            "x": -23,
+            "y": 67
+        }
+    ]
+}

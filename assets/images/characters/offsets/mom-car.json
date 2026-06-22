@@ -1,0 +1,30 @@
+{
+    "character": "mom-car",
+    "offsets": [
+        {
+            "anim": "idle",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singDOWN",
+            "x": -8,
+            "y": -158
+        },
+        {
+            "anim": "singRIGHT",
+            "x": 2,
+            "y": -56
+        },
+        {
+            "anim": "singUP",
+            "x": -6,
+            "y": 81
+        },
+        {
+            "anim": "singLEFT",
+            "x": 249,
+            "y": -22
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "character": "parents-christmas",
+    "offsets": [
+        {
+            "anim": "singRIGHT-alt",
+            "x": 1,
+            "y": -20
+        },
+        {
+            "anim": "singDOWN",
+            "x": -31,
+            "y": -25
+        },
+        {
+            "anim": "singLEFT-alt",
+            "x": -27,
+            "y": 18
+        },
+        {
+            "anim": "singUP",
+            "x": -47,
+            "y": 24
+        },
+        {
+            "anim": "idle",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "anim": "singDOWN-alt",
+            "x": -31,
+            "y": -24
+        },
+        {
+            "anim": "singRIGHT",
+            "x": 0,
+            "y": -21
+        },
+        {
+            "anim": "singLEFT",
+            "x": -28,
+            "y": 19
+        },
+        {
+            "anim": "singUP-alt",
+            "x": -47,
+            "y": 27
+        }
+    ]
+}
