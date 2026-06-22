@@ -357,9 +357,7 @@ class AnimationDebug extends MusicBeatState
 			}
 		}
 		else
-		{
 			camFollow.velocity.set();
-		}
 
 		super.update(elapsed);
 	}

@@ -1,6 +1,7 @@
 // done
 package;
 
+import flixel.FlxG;
 import flixel.FlxGame;
 import openfl.display.FPS;
 import openfl.display.Sprite;
@@ -16,11 +17,15 @@ class Main extends Sprite
 	{
 		super();
 
+		// more of a just in case thing i guess lol
 		#if html5
 		framerate = 60;
 		#end
 
 		addChild(new FlxGame(0, 0, TitleState));
+
+		FlxG.updateFramerate = framerate;
+		FlxG.drawFramerate = framerate;
 
 		#if !mobile
 		addChild(new FPS(0, 0, 0xFFFFFF));

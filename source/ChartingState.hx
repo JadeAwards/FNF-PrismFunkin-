@@ -713,9 +713,7 @@ class ChartingState extends MusicBeatState
 				}
 
 				if (FlxG.mouse.wheel != 0)
-				{
 					syncEditorAudio(FlxG.sound.music.time - (FlxG.mouse.wheel * Conductor.stepCrochet * 0.4), true);
-				}
 
 				if (!FlxG.keys.pressed.SHIFT)
 				{
@@ -767,6 +765,24 @@ class ChartingState extends MusicBeatState
 		bpmTxt.x = FlxG.width - bpmTxt.width - 10;
 
 		updateEditorAudioState();
+
+		if (gridBG.y < -640) // 16 rows * 40px = 640px height
+		{
+			changeSection(curSection + 1);
+			gridBG.y = 0; // Reset grid position back to top for the next section
+		}
+
+		// If you scroll up past the top of the section (Step 0)
+		if (gridBG.y > 0)
+		{
+			if (curSection > 0)
+			{
+				changeSection(curSection - 1);
+				gridBG.y = -640;
+			}
+			else
+				gridBG.y = 0;
+		}
 
 		super.update(elapsed);
 	}

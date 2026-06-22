@@ -786,10 +786,10 @@ class PlayState extends MusicBeatState
 			openSubState(new PauseSubState(boyfriend.getScreenPosition().x, boyfriend.getScreenPosition().y));
 		}
 
-		#if debug
+		
 		if (canUseDebugOrPause && FlxG.keys.justPressed.SEVEN)
 			FlxG.switchState(new ChartingState());
-		#end
+		
 
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
@@ -861,9 +861,7 @@ class PlayState extends MusicBeatState
 		}
 
 		if (generatedMusic && PlayState.SONG.notes[Std.int(curStep / 16)] != null)
-		{
 			updateCameraFollow(PlayState.SONG.notes[Std.int(curStep / 16)].mustHitSection);
-		}
 
 		if (camZooming)
 		{
@@ -1189,9 +1187,8 @@ class PlayState extends MusicBeatState
 
 		// Clean up notes to free memory
 		if (notes != null)
-		{
 			notes.clear();
-		}
+
 		unspawnNotes = [];
 	}
 
@@ -1445,9 +1442,7 @@ class PlayState extends MusicBeatState
 		if (boyfriend.holdTimer > Conductor.stepCrochet * 4 * 0.001 && !holdArray.contains(true))
 		{
 			if (boyfriend.animation.curAnim.name.startsWith('sing') && !boyfriend.animation.curAnim.name.endsWith('miss'))
-			{
 				boyfriend.playAnim('idle');
-			}
 		}
 
 		playerStrums.forEach(function(spr:FlxSprite)

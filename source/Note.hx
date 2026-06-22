@@ -166,19 +166,38 @@ class Note extends FlxSprite
 		if (mustPress)
 			laneID += 4;
 
-		if (PlayState.instance != null && PlayState.instance.strumLineNotes != null)
+		if (PlayState.instance != null
+			&& PlayState.instance.strumLineNotes != null
+			&& PlayState.instance.strumLineNotes.members != null
+			&& PlayState.instance.strumLineNotes.members[laneID] != null)
 		{
 			var targetReceptor = PlayState.instance.strumLineNotes.members[laneID];
-			if (targetReceptor != null)
-			{
-				// base positioning following the moving receptors
-				this.x = targetReceptor.x + PrismJsonScript.getSwayX(laneID, Conductor.songPosition);
-				this.y = targetReceptor.y + (strumTime - Conductor.songPosition) * (0.45 * PlayState.SONG.speed);
-				this.angle = targetReceptor.angle + PrismJsonScript.noteAngles[laneID];
 
-				if (isSustainNote)
-					this.x += (Note.swagWidth / 2) - (this.width / 2);
-			}
+			this.x = targetReceptor.x + PrismJsonScript.getSwayX(laneID, Conductor.songPosition);
+			this.y = targetReceptor.y + (strumTime - Conductor.songPosition) * (0.45 * PlayState.SONG.speed);
+			this.angle = targetReceptor.angle + PrismJsonScript.noteAngles[laneID];
+
+			// fix sus note
+			if (isSustainNote)
+				this.x += (Note.swagWidth / 2) - (this.width / 2);
+		}
+		else // CHART EDITOR FIX!!!
+		{
+			var gridLane:Int = noteData;
+			if (mustPress)
+				gridLane += 4;
+
+			// had to edit offsets since notes werent showing properly due to the json note modchart shit
+			this.x = 480 + (40 * gridLane);
+
+			// this part took SOOO long but its fixed so yay!!!
+			var sectionIndex:Int = Math.floor(Conductor.songPosition / (Conductor.stepCrochet * 16));
+			var relativeStep:Float = (strumTime / Conductor.stepCrochet) - (sectionIndex * 16);
+			this.y = relativeStep * 40;
+
+			scrollFactor.set(0, 1);
+
+			this.angle = 0;
 		}
 
 		if (mustPress)
