@@ -16,6 +16,6 @@ haxelib install layout 1.2.1
 haxelib install lime 7.9.0
 haxelib install openfl 9.5.2
 haxelib install systools 1.1.0
-haxelib install linc_luajit
+haxelib run lime setup
 echo Finished!
 pause

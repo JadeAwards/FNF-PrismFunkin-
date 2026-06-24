@@ -786,10 +786,8 @@ class PlayState extends MusicBeatState
 			openSubState(new PauseSubState(boyfriend.getScreenPosition().x, boyfriend.getScreenPosition().y));
 		}
 
-		
 		if (canUseDebugOrPause && FlxG.keys.justPressed.SEVEN)
 			FlxG.switchState(new ChartingState());
-		
 
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);

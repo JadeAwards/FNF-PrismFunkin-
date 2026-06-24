@@ -65,7 +65,6 @@
 	<haxelib name="hscript" />
 	<haxelib name="flixel-addons" />
 	<haxelib name="flixel-ui" />
-	<haxelib name="linc_luajit" if="desktop" />
 
 	<!-- ______________________________ Haxedefines _____________________________ -->
 
